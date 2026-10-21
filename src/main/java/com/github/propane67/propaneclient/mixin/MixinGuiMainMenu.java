@@ -1,4 +1,4 @@
-package com.github.propane-67.propaneclient.mixin;
+package com.github.propane67.propaneclient.mixin;
 
 import net.minecraft.client.gui.GuiMainMenu;
 import org.spongepowered.asm.mixin.Mixin;
