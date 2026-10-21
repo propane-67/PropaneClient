@@ -1,6 +1,7 @@
 package com.github.propane67.propaneclient;
 
 import com.github.propane67.propaneclient.hud.FpsHud;
+import com.github.propane67.propaneclient.hud.CoordsHud;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -16,5 +17,6 @@ public class ExampleMod {
 
         // Liga os módulos do HUD
         MinecraftForge.EVENT_BUS.register(new FpsHud());
+        MinecraftForge.EVENT_BUS.register(new CoordsHud());
     }
 }
